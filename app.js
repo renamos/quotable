@@ -26,7 +26,7 @@ app.use(bodyParser.json());
 
 app.use(cors());
 
-var port = process.env.PORT || 8888; // set our port
+var port = process.env.PORT || 8880; // set our port
 
 mongoose.connect(config.databaseURL); // connect to our database
 
